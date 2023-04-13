@@ -1,10 +1,9 @@
+import React from 'react';
+import Sobre from './Objects/Sobre';
 
-import './App.css';
 
 function App() {
-  return (
-    <a href = "#" className = "action">Sobre</a>
-  );
+  return (<Sobre />);
 }
 
 export default App;
