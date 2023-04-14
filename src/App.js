@@ -1,13 +1,14 @@
 import React from 'react';
-import Sobre from './Objects/Sobre';
 import Logo from './Objects/Logo';
-
+import Sobre from './Objects/Sobre';
+import Menu from './Objects/Menu';
 
 function App() {
   return (
   <>
     <Logo />
-    <Sobre />   
+    <Sobre />  
+    <Menu/> 
   </>
   );
 }
