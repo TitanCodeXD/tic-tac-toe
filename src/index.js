@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Styles/Settings/Colors.css';
+import './Styles/Settings/Spacing.css';
 import 'normalize.css';
 import './Styles/Generic/Reset.css';
 import './Styles/Elements/Base.css';
