@@ -1,5 +1,5 @@
 import React from 'react';
-import CollabCode from '../../img/logo.png';
+import CollabCode from '../../img/HashtagTicTac.png';
 
 const Logo = () => (<img src = {CollabCode} alt = "Logo da CollabCode" />)
 
