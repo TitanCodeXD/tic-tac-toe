@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './Styles/Settings/Size.css';
 import './Styles/Settings/Colors.css';
 import './Styles/Settings/Spacing.css';
 import 'normalize.css';
