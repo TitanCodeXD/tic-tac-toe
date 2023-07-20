@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
+import CheckBox from './Objects/CheckBox';
 import Hashtag from './Components/Hashtag';
 import Header from './Components/Header';
-import Input from './Objects/Input';
 
 
 const App = () => (
   <main className = "app">
     <Header />
     <Hashtag />
-    <Input id = "show" value = "show" type = "checkbox" content = "Mostrar Eventos"/>
+    <CheckBox id = "show" value = "show" type = "checkbox" content = "Mostrar Eventos"/>
   </main>
 )
 
