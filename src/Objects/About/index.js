@@ -3,7 +3,10 @@ import './styles.css';
 
 
 const About = ({children}) => (
-<article className = "about">{children}</article>
+
+    <article className = "about">
+    {children}
+    </article>
 
 
 );

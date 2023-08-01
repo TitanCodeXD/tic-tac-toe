@@ -5,3 +5,8 @@
     text-decoration: none;
     text-transform: uppercase;
   }
+
+  .about-link.-light {
+    color: var(--color-zero);
+  }
+  
