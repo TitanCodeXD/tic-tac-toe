@@ -1,8 +1,9 @@
 .icon-close {
+    position: relative;
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-color: red;
+    /*background-color: red;  Background para vizualização mis clara da construção do X*/
 }
 
 .icon-close > .content {
@@ -13,8 +14,27 @@
 .icon-close::before{
     display: inline-block;
     content: "";
-    width: 100%;
+    width: 32px;
     height: 4px;
     background-color: var(--color-zero);
+    border-radius: 2px;
+    position: absolute;
+    top: -1px;
+    left: 2px;
     transform: rotate(45deg);
+    transform-origin: top left;
+}
+
+.icon-close::after{
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 4px;
+    background-color: var(--color-zero);
+    border-radius: 2px;
+    position: absolute;
+    top: -1px;
+    right: 2px;
+    transform: rotate(315deg);
+    transform-origin: top right;
 }
