@@ -1,6 +1,6 @@
 import React from 'react';
-import CollabCode from '../../img/HashtagTicTac.png';
+import LogoInicial from '../../img/HashtagTicTac.png';
 
-const Logo = () => (<img src = {CollabCode} alt = "Logo Hashtag TicTacToe" />)
+const Logo = () => (<img src = {LogoInicial} alt = "Logo Hashtag TicTacToe" />)
 
 export default Logo
