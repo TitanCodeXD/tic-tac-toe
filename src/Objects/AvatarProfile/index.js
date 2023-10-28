@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './styles.css';
 
 const AvatarProfile  = ( {src , alt}) => (
-    <img src = {src} alt = {alt} width="400" height="400"></img>
+    <img className = "avatar-profile"src = {src} alt = {alt} width="320" height="320"></img>
 )
 
 
