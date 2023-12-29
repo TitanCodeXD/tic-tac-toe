@@ -17,7 +17,7 @@ const ProfileUser = () => {
     <dl className = 'profile-user'>
         <dd className = 'avatar'><AvatarProfile src = {Profile} alt = "Foto de Perfil Wesley Santos"/></dd>
         <dt className = 'title'>Wesley Santos</dt>
-        <dd className = 'description'>Estudante de Engenharia de computação motivado, com experiência e foco na área de programação. Oferecendo conhecimentos básicos em HTML, CSS, Javascript e bibliotecas como React, com aptidão em inglês intermediário. Programador energético, coletivo e comunicativo, capaz de navegar e explorar novas áreas a fim de sempre querer mais experiência e aprendizado.</dd>
+        <dd className = 'description'>Estudante de Engenharia de computação com conhecimentos em HTML, CSS, Javascript e bibliotecas como React, com aptidão em inglês intermediário. "Eat, Sleep, Code, Repeat".</dd>
     </dl>
 
   )
