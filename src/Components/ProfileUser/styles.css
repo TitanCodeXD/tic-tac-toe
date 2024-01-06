@@ -24,3 +24,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.profile-user > .socials {
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
